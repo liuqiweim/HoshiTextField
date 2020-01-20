@@ -16,6 +16,12 @@
 		BFD3E1B223D558EC0078E56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1B123D558EC0078E56F /* main.m */; };
 		BFD3E1BC23D558EC0078E56F /* HoshiTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1BB23D558EC0078E56F /* HoshiTextFieldTests.m */; };
 		BFD3E1C723D558EC0078E56F /* HoshiTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1C623D558EC0078E56F /* HoshiTextFieldUITests.m */; };
+		BFD3E1DD23D55B730078E56F /* JHHoshiTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1D523D55B730078E56F /* JHHoshiTextField.m */; };
+		BFD3E1DE23D55B730078E56F /* JHTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1D723D55B730078E56F /* JHTextField.m */; };
+		BFD3E1DF23D55B730078E56F /* JHBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1D823D55B730078E56F /* JHBaseTextField.m */; };
+		BFD3E1E023D55B730078E56F /* NSString+Length.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1DA23D55B730078E56F /* NSString+Length.m */; };
+		BFD3E1E323D55BDB0078E56F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1E223D55BDB0078E56F /* UIView+Extension.m */; };
+		BFD3E1E623D55C8D0078E56F /* NSString+YYSomeAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1E523D55C8D0078E56F /* NSString+YYSomeAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,18 @@
 		BFD3E1C223D558EC0078E56F /* HoshiTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoshiTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD3E1C623D558EC0078E56F /* HoshiTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoshiTextFieldUITests.m; sourceTree = "<group>"; };
 		BFD3E1C823D558EC0078E56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD3E1D523D55B730078E56F /* JHHoshiTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHoshiTextField.m; sourceTree = "<group>"; };
+		BFD3E1D623D55B730078E56F /* NSString+Length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Length.h"; sourceTree = "<group>"; };
+		BFD3E1D723D55B730078E56F /* JHTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextField.m; sourceTree = "<group>"; };
+		BFD3E1D823D55B730078E56F /* JHBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseTextField.m; sourceTree = "<group>"; };
+		BFD3E1D923D55B730078E56F /* JHHoshiTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHoshiTextField.h; sourceTree = "<group>"; };
+		BFD3E1DA23D55B730078E56F /* NSString+Length.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Length.m"; sourceTree = "<group>"; };
+		BFD3E1DB23D55B730078E56F /* JHTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextField.h; sourceTree = "<group>"; };
+		BFD3E1DC23D55B730078E56F /* JHBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseTextField.h; sourceTree = "<group>"; };
+		BFD3E1E123D55BDB0078E56F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		BFD3E1E223D55BDB0078E56F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		BFD3E1E423D55C8D0078E56F /* NSString+YYSomeAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YYSomeAdd.h"; sourceTree = "<group>"; };
+		BFD3E1E523D55C8D0078E56F /* NSString+YYSomeAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYSomeAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +122,7 @@
 		BFD3E19E23D558EA0078E56F /* HoshiTextField */ = {
 			isa = PBXGroup;
 			children = (
+				BFD3E1D423D55B730078E56F /* JHTextField */,
 				BFD3E19F23D558EA0078E56F /* AppDelegate.h */,
 				BFD3E1A023D558EA0078E56F /* AppDelegate.m */,
 				BFD3E1A223D558EA0078E56F /* SceneDelegate.h */,
@@ -135,6 +154,25 @@
 				BFD3E1C823D558EC0078E56F /* Info.plist */,
 			);
 			path = HoshiTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		BFD3E1D423D55B730078E56F /* JHTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BFD3E1E123D55BDB0078E56F /* UIView+Extension.h */,
+				BFD3E1E223D55BDB0078E56F /* UIView+Extension.m */,
+				BFD3E1E423D55C8D0078E56F /* NSString+YYSomeAdd.h */,
+				BFD3E1E523D55C8D0078E56F /* NSString+YYSomeAdd.m */,
+				BFD3E1DC23D55B730078E56F /* JHBaseTextField.h */,
+				BFD3E1D823D55B730078E56F /* JHBaseTextField.m */,
+				BFD3E1D923D55B730078E56F /* JHHoshiTextField.h */,
+				BFD3E1D523D55B730078E56F /* JHHoshiTextField.m */,
+				BFD3E1DB23D55B730078E56F /* JHTextField.h */,
+				BFD3E1D723D55B730078E56F /* JHTextField.m */,
+				BFD3E1D623D55B730078E56F /* NSString+Length.h */,
+				BFD3E1DA23D55B730078E56F /* NSString+Length.m */,
+			);
+			path = JHTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD3E1E323D55BDB0078E56F /* UIView+Extension.m in Sources */,
+				BFD3E1E623D55C8D0078E56F /* NSString+YYSomeAdd.m in Sources */,
 				BFD3E1A723D558EA0078E56F /* ViewController.m in Sources */,
+				BFD3E1E023D55B730078E56F /* NSString+Length.m in Sources */,
+				BFD3E1DF23D55B730078E56F /* JHBaseTextField.m in Sources */,
+				BFD3E1DE23D55B730078E56F /* JHTextField.m in Sources */,
+				BFD3E1DD23D55B730078E56F /* JHHoshiTextField.m in Sources */,
 				BFD3E1A123D558EA0078E56F /* AppDelegate.m in Sources */,
 				BFD3E1B223D558EC0078E56F /* main.m in Sources */,
 				BFD3E1A423D558EA0078E56F /* SceneDelegate.m in Sources */,
