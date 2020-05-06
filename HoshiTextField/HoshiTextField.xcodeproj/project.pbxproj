@@ -7,19 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF04A98223E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A96923E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		BF04A98323E936AE00A783B2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97223E936AE00A783B2 /* ViewController+MASAdditions.m */; };
-		BF04A98423E936AE00A783B2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97623E936AE00A783B2 /* MASCompositeConstraint.m */; };
-		BF04A98523E936AE00A783B2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97723E936AE00A783B2 /* MASConstraintMaker.m */; };
-		BF04A98623E936AE00A783B2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97823E936AE00A783B2 /* MASLayoutConstraint.m */; };
-		BF04A98723E936AE00A783B2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97923E936AE00A783B2 /* NSArray+MASAdditions.m */; };
-		BF04A98823E936AE00A783B2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97A23E936AE00A783B2 /* View+MASAdditions.m */; };
-		BF04A98923E936AE00A783B2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97D23E936AE00A783B2 /* MASConstraint.m */; };
-		BF04A98A23E936AE00A783B2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A97F23E936AE00A783B2 /* MASViewConstraint.m */; };
-		BF04A98B23E936AE00A783B2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04A98023E936AE00A783B2 /* MASViewAttribute.m */; };
-		BF04A98C23E936AE00A783B2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF04A98123E936AE00A783B2 /* Info.plist */; };
 		BFD3E1A123D558EA0078E56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1A023D558EA0078E56F /* AppDelegate.m */; };
-		BFD3E1A423D558EA0078E56F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1A323D558EA0078E56F /* SceneDelegate.m */; };
 		BFD3E1A723D558EA0078E56F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1A623D558EA0078E56F /* ViewController.m */; };
 		BFD3E1AA23D558EA0078E56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD3E1A823D558EA0078E56F /* Main.storyboard */; };
 		BFD3E1AC23D558EC0078E56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD3E1AB23D558EC0078E56F /* Assets.xcassets */; };
@@ -33,6 +21,7 @@
 		BFD3E1E023D55B730078E56F /* NSString+Length.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1DA23D55B730078E56F /* NSString+Length.m */; };
 		BFD3E1E323D55BDB0078E56F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1E223D55BDB0078E56F /* UIView+Extension.m */; };
 		BFD3E1E623D55C8D0078E56F /* NSString+YYSomeAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3E1E523D55C8D0078E56F /* NSString+YYSomeAdd.m */; };
+		DA68D2A6EF61EE37A8796F5F /* libPods-HoshiTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073F9A1692A99ABAAE568F2F /* libPods-HoshiTextField.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,37 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF04A96823E936AE00A783B2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		BF04A96923E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		BF04A96A23E936AE00A783B2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		BF04A96B23E936AE00A783B2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		BF04A96C23E936AE00A783B2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		BF04A96D23E936AE00A783B2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		BF04A96E23E936AE00A783B2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		BF04A96F23E936AE00A783B2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		BF04A97023E936AE00A783B2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		BF04A97123E936AE00A783B2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		BF04A97223E936AE00A783B2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		BF04A97323E936AE00A783B2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		BF04A97423E936AE00A783B2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		BF04A97523E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		BF04A97623E936AE00A783B2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		BF04A97723E936AE00A783B2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		BF04A97823E936AE00A783B2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		BF04A97923E936AE00A783B2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		BF04A97A23E936AE00A783B2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		BF04A97B23E936AE00A783B2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		BF04A97C23E936AE00A783B2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		BF04A97D23E936AE00A783B2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		BF04A97E23E936AE00A783B2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		BF04A97F23E936AE00A783B2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		BF04A98023E936AE00A783B2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		BF04A98123E936AE00A783B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073F9A1692A99ABAAE568F2F /* libPods-HoshiTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HoshiTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25101D8F61245A4BFA6DB775 /* Pods-HoshiTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoshiTextField.release.xcconfig"; path = "Target Support Files/Pods-HoshiTextField/Pods-HoshiTextField.release.xcconfig"; sourceTree = "<group>"; };
+		28C00356441B3D2A30EA8823 /* Pods-HoshiTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoshiTextField.debug.xcconfig"; path = "Target Support Files/Pods-HoshiTextField/Pods-HoshiTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD3E19C23D558EA0078E56F /* HoshiTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoshiTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD3E19F23D558EA0078E56F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD3E1A023D558EA0078E56F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFD3E1A223D558EA0078E56F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BFD3E1A323D558EA0078E56F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		BFD3E1A523D558EA0078E56F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFD3E1A623D558EA0078E56F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFD3E1A923D558EA0078E56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA68D2A6EF61EE37A8796F5F /* libPods-HoshiTextField.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,37 +101,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF04A96723E936AE00A783B2 /* Masonry */ = {
+		150DBA411614752DDE2DC083 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF04A96823E936AE00A783B2 /* MASCompositeConstraint.h */,
-				BF04A96923E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				BF04A96A23E936AE00A783B2 /* MASConstraint+Private.h */,
-				BF04A96B23E936AE00A783B2 /* MASLayoutConstraint.h */,
-				BF04A96C23E936AE00A783B2 /* NSArray+MASShorthandAdditions.h */,
-				BF04A96D23E936AE00A783B2 /* MASConstraintMaker.h */,
-				BF04A96E23E936AE00A783B2 /* View+MASAdditions.h */,
-				BF04A96F23E936AE00A783B2 /* NSArray+MASAdditions.h */,
-				BF04A97023E936AE00A783B2 /* MASUtilities.h */,
-				BF04A97123E936AE00A783B2 /* MASViewAttribute.h */,
-				BF04A97223E936AE00A783B2 /* ViewController+MASAdditions.m */,
-				BF04A97323E936AE00A783B2 /* MASViewConstraint.h */,
-				BF04A97423E936AE00A783B2 /* MASConstraint.h */,
-				BF04A97523E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				BF04A97623E936AE00A783B2 /* MASCompositeConstraint.m */,
-				BF04A97723E936AE00A783B2 /* MASConstraintMaker.m */,
-				BF04A97823E936AE00A783B2 /* MASLayoutConstraint.m */,
-				BF04A97923E936AE00A783B2 /* NSArray+MASAdditions.m */,
-				BF04A97A23E936AE00A783B2 /* View+MASAdditions.m */,
-				BF04A97B23E936AE00A783B2 /* View+MASShorthandAdditions.h */,
-				BF04A97C23E936AE00A783B2 /* Masonry.h */,
-				BF04A97D23E936AE00A783B2 /* MASConstraint.m */,
-				BF04A97E23E936AE00A783B2 /* ViewController+MASAdditions.h */,
-				BF04A97F23E936AE00A783B2 /* MASViewConstraint.m */,
-				BF04A98023E936AE00A783B2 /* MASViewAttribute.m */,
-				BF04A98123E936AE00A783B2 /* Info.plist */,
+				073F9A1692A99ABAAE568F2F /* libPods-HoshiTextField.a */,
 			);
-			path = Masonry;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BFD3E19323D558EA0078E56F = {
@@ -176,6 +116,8 @@
 				BFD3E1BA23D558EC0078E56F /* HoshiTextFieldTests */,
 				BFD3E1C523D558EC0078E56F /* HoshiTextFieldUITests */,
 				BFD3E19D23D558EA0078E56F /* Products */,
+				D30D8EDEB185B333B93CD69D /* Pods */,
+				150DBA411614752DDE2DC083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,12 +134,9 @@
 		BFD3E19E23D558EA0078E56F /* HoshiTextField */ = {
 			isa = PBXGroup;
 			children = (
-				BF04A96723E936AE00A783B2 /* Masonry */,
 				BFD3E1D423D55B730078E56F /* JHTextField */,
 				BFD3E19F23D558EA0078E56F /* AppDelegate.h */,
 				BFD3E1A023D558EA0078E56F /* AppDelegate.m */,
-				BFD3E1A223D558EA0078E56F /* SceneDelegate.h */,
-				BFD3E1A323D558EA0078E56F /* SceneDelegate.m */,
 				BFD3E1A523D558EA0078E56F /* ViewController.h */,
 				BFD3E1A623D558EA0078E56F /* ViewController.m */,
 				BFD3E1A823D558EA0078E56F /* Main.storyboard */,
@@ -246,6 +185,16 @@
 			path = JHTextField;
 			sourceTree = "<group>";
 		};
+		D30D8EDEB185B333B93CD69D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28C00356441B3D2A30EA8823 /* Pods-HoshiTextField.debug.xcconfig */,
+				25101D8F61245A4BFA6DB775 /* Pods-HoshiTextField.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD3E1CB23D558EC0078E56F /* Build configuration list for PBXNativeTarget "HoshiTextField" */;
 			buildPhases = (
+				9AAB0E4364ECEC99E1544454 /* [CP] Check Pods Manifest.lock */,
 				BFD3E19823D558EA0078E56F /* Sources */,
 				BFD3E19923D558EA0078E56F /* Frameworks */,
 				BFD3E19A23D558EA0078E56F /* Resources */,
@@ -349,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF04A98C23E936AE00A783B2 /* Info.plist in Resources */,
 				BFD3E1AF23D558EC0078E56F /* LaunchScreen.storyboard in Resources */,
 				BFD3E1AC23D558EC0078E56F /* Assets.xcassets in Resources */,
 				BFD3E1AA23D558EA0078E56F /* Main.storyboard in Resources */,
@@ -372,31 +321,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AAB0E4364ECEC99E1544454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoshiTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFD3E19823D558EA0078E56F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF04A98223E936AE00A783B2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				BFD3E1E323D55BDB0078E56F /* UIView+Extension.m in Sources */,
-				BF04A98923E936AE00A783B2 /* MASConstraint.m in Sources */,
-				BF04A98A23E936AE00A783B2 /* MASViewConstraint.m in Sources */,
-				BF04A98323E936AE00A783B2 /* ViewController+MASAdditions.m in Sources */,
-				BF04A98B23E936AE00A783B2 /* MASViewAttribute.m in Sources */,
 				BFD3E1E623D55C8D0078E56F /* NSString+YYSomeAdd.m in Sources */,
-				BF04A98423E936AE00A783B2 /* MASCompositeConstraint.m in Sources */,
-				BF04A98823E936AE00A783B2 /* View+MASAdditions.m in Sources */,
 				BFD3E1A723D558EA0078E56F /* ViewController.m in Sources */,
 				BFD3E1E023D55B730078E56F /* NSString+Length.m in Sources */,
-				BF04A98623E936AE00A783B2 /* MASLayoutConstraint.m in Sources */,
-				BF04A98523E936AE00A783B2 /* MASConstraintMaker.m in Sources */,
 				BFD3E1DF23D55B730078E56F /* JHBaseTextField.m in Sources */,
 				BFD3E1DE23D55B730078E56F /* JHTextField.m in Sources */,
 				BFD3E1DD23D55B730078E56F /* JHHoshiTextField.m in Sources */,
-				BF04A98723E936AE00A783B2 /* NSArray+MASAdditions.m in Sources */,
 				BFD3E1A123D558EA0078E56F /* AppDelegate.m in Sources */,
 				BFD3E1B223D558EC0078E56F /* main.m in Sources */,
-				BFD3E1A423D558EA0078E56F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +526,7 @@
 		};
 		BFD3E1CC23D558EC0078E56F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C00356441B3D2A30EA8823 /* Pods-HoshiTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +544,7 @@
 		};
 		BFD3E1CD23D558EC0078E56F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25101D8F61245A4BFA6DB775 /* Pods-HoshiTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
