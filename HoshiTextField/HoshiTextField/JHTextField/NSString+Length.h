@@ -16,5 +16,5 @@
 ///  @param maxLength 最大长度，超出部分截取掉。如果是0，表示不限制长度
 ///  @warning 执行此方法后会生成一个新的字符串
 - (NSString *)substringWithMaxLength:(NSUInteger)maxLength;
-
+-(BOOL)isNotBlank;
 @end

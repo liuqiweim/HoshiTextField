@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PodDemo"
-  spec.version      = "0.0.2"
+  spec.name         = "HoshiTextFiled"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of PodDemo by TextFiled."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/liuqiweim/HoshiTextField.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/liuqiweim/HoshiTextField.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
